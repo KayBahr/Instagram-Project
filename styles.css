@@ -1,20 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 body{
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
 }
 
 img {
+    width: 700px;
     height: auto;
+    border-style: solid;
+    border-color: rgb(226, 226, 226);
+    padding-bottom: 5px;
 }
 
 .topHeader {
-    background: rgb(124, 71, 7);
+    background: white;
+    font-size: xx-large;
     text-align: center;
+    margin-right: 23%;
 }
 
 .feed {
-    background: gray;
+    background: rgb(226, 226, 226);
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    margin: -50px;
+    margin-top: 15px;
+}
+
+h1 {
+    float: left;
+    margin: 15px;
+    font-size: medium;
+}
+
+h2 {
+    float:right;
+    color:rgb(226, 226, 226);
+    margin: 15px;
+    font-size: medium;
+}
+
+p {
+    margin: 20px;
+}
+
+.feedOne {
+    background:rgb(255, 255, 255);
+    width: 700px;
+    height: auto;
+    margin: 50px;
+}
+
+.feedTwo {
+    background:rgb(255, 255, 255);
+    width: 700px;
+    height: auto;
+    margin: 50px;
+    margin-top: 0px;
+}
+
+.feedThree {
+    background:rgb(255, 255, 255);
+    width: 700px;
+    height: auto;
+    margin: 50px;
+    margin-top: 0px;
+}
+
+.feedFour {
+    background:rgb(255, 255, 255);
+    width: 700px;
+    height: auto;
+    margin: 50px;
+    margin-top: 0px;
+}
+
+.imgFour {
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
