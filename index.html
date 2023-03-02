@@ -3,16 +3,16 @@
     <header> <!--tab description-->
         <meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>4Geeks Academy Instegram Practice</title>
+		<title>4Geeks Academy Instagram Practice</title>
 		<link rel="stylesheet" href="styles.css" />
     </header>
 
     <body>
-        <h1>
+        <h1 class="topHeader">
             <strong>Breathe Code Photo Feed</strong>
         </h1>
 
-        <div> <!--for all feed to classify for style background of gray and such-->
+        <div class="feed"> <!--for all feed to classify for style background of gray and such-->
             <div> <!--feed 1 husky-->
                 <h1>
                     My first photo
@@ -21,7 +21,7 @@
                     12/14
                 </h2>
                 <body> <!--for image and paragraph?-->
-                    <img href="">
+                    <img src="https://pbs.twimg.com/media/CAet3MBUMAAvJSl.jpg" alt="A cute husky puppy">
                     <p>
                         This is my first photo of the feed. this is a multiline comment for testing purposes. I am learning to code with <strong>#BreatheCode</strong>
                     </p>
@@ -36,7 +36,7 @@
                     12/17
                 </h2>
                 <body> <!--for image and paragraph?-->
-                    <img href="">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdP9lXqNyiq8x9nNOwvz4x8M743CpqwtSXwit4-PiWg2q9aVm4OvWLJFGswjj0KHeq2B8&usqp=CAU.jpg" alt="A cute pug">
                     <p>
                         The internet approves this cute dog...<strong>#BreatheCode</strong>
                     </p>
@@ -50,7 +50,7 @@
                     12/17
                 </h2>
                 <body> <!--for image and paragraph?-->
-                    <img href="">
+                    <img src="https://ocdn.eu/pulscms-transforms/1/es7ktkpTURBXy9jNGViYTkwOWYxZjlmNzM5YmUyNzkwYmQ3ODJiM2RkZC5qcGeSlQMAzMPNFLvNC6mVAs0EsADCww" alt="A girl on a laptop">
                     <p>
                         This is me waiting for the screen to show my awesome first website made at <strong>#BreatheCode</strong>
                     </p>
@@ -64,7 +64,7 @@
                     12/17
                 </h2>
                 <body> <!--for image and paragraph?-->
-                    <img href="">
+                    <img src="data:image/jpeg;base64,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" alt="A pasta dish">
                     <p>
                         Because no photo feed is cool without some food on it! <strong>#BreatheCode</strong>
                     </p>
